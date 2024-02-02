@@ -14,7 +14,7 @@ Happy coding.....! 😉
 ## Content
 
 ✅ApplicationContext using Annotations</br>
-✅Spring Configuration using XML</br>
+✅SpringConfiguration using XML</br>
 
 <div align="center">
 
