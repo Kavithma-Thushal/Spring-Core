@@ -24,6 +24,18 @@ public class AppInitializer {
         /*SpringBean springBean = (SpringBean) ac.getBean("springBean");
         System.out.println(springBean);*/
 
+        //ac.close();
+
+        /*Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("JVM is about to shutdown");
+                ac.close();
+            }
+        }));*/
+
+        ac.registerShutdownHook();
+
         SpringBean2 springBean2 = ac.getBean(SpringBean2.class);
         System.out.println(springBean2);
 
