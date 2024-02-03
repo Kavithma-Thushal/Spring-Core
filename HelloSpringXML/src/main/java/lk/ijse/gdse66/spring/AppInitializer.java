@@ -9,6 +9,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  **/
 public class AppInitializer {
     public static void main(String[] args) {
-        new ClassPathXmlApplicationContext("context.xml");
+        ClassPathXmlApplicationContext xmlac = new ClassPathXmlApplicationContext("context.xml");
+
+        SpringBean springBean = xmlac.getBean(SpringBean.class);
+        System.out.println(springBean);
     }
 }
