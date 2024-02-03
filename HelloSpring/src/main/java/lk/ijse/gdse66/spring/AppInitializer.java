@@ -12,5 +12,14 @@ public class AppInitializer {
         AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext();
         ac.register(AppConfig.class);
         ac.refresh();
+
+        AppConfig appConfig = ac.getBean(AppConfig.class);
+        System.out.println(appConfig);
+
+        SpringBean springBean = ac.getBean(SpringBean.class);
+        System.out.println(springBean);
+
+        SpringBean2 springBean2 = ac.getBean(SpringBean2.class);
+        System.out.println(springBean2);
     }
 }
