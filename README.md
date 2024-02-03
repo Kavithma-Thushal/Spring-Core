@@ -13,8 +13,8 @@ Happy coding.....! 😉
 
 ## Content
 
-✅ApplicationContext using Annotations</br>
-✅SpringConfiguration using XML</br>
+✅Configure using Annotations</br>
+✅Configure using XML</br>
 
 <div align="center">
 
