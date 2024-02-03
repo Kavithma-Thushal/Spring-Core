@@ -19,7 +19,10 @@ public class AppInitializer {
         SpringBean springBean = ac.getBean(SpringBean.class);
         System.out.println(springBean);
 
-        SpringBean2 springBean2 = ac.getBean(SpringBean2.class);
+        /*SpringBean springBean = (SpringBean) ac.getBean("springBean");
+        System.out.println(springBean);*/
+
+        SpringBean2 springBean2 = (SpringBean2) ac.getBean("sb");
         System.out.println(springBean2);
     }
 }
