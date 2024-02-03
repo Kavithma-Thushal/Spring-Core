@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
  * @project : Spring
  * @since : 8:02 AM - 2/3/2024
  **/
-@Component(value = "sb")
-public class SpringBean2 {
-    public SpringBean2() {
-        System.out.println("SpringBean2 instance is created");
+@Component
+public class SpringBean3 {
+    public SpringBean3() {
+        System.out.println("SpringBean3 instance is created");
     }
 }
