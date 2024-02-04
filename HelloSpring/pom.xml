@@ -16,7 +16,7 @@
     </properties>
 
     <dependencies>
-        <!--Add Spring Core-->
+        <!--Add Spring Core Container-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
