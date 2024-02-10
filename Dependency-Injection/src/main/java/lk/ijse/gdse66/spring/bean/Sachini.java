@@ -12,7 +12,12 @@ import org.springframework.stereotype.Component;
  * @since : 10:53 AM - 2/10/2024
  **/
 @Component
-public class Sachini implements BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean {
+public class Sachini implements BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean, GoodGirl {
+
+    @Override
+    public void loveHim() {
+        System.out.println("Sachini - I loves Kamal");
+    }
 
     public Sachini() {
         System.out.println("Sachini - Instantiate");
