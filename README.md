@@ -13,19 +13,14 @@ Happy coding.....! 😉
 
 ## Content
 
-✅Configure through Annotations</br>
-✅Configure through XML</br>
+✅Configuration through Annotations</br>
+✅Configuration through XML</br>
 ✅Spring Container</br>
 ✅Spring Beans</br>
 ✅Bean Definition</br>
+✅Bean Annotations</br>
 ✅Bean Life-Cycle</br>
 ✅Dependency Injection</br>
-✅@Configuration</br>
-✅@Component</br>
-✅@ComponentScan</br>
-✅@Bean</br>
-✅@Scope</br>
-
 <div align="center">
 
 #### This project is licensed under the [MIT License](LICENSE)
