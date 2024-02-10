@@ -13,8 +13,18 @@ Happy coding.....! 😉
 
 ## Content
 
-✅Configure using Annotations</br>
-✅Configure using XML</br>
+✅Configure through Annotations</br>
+✅Configure through XML</br>
+✅Spring Container</br>
+✅Spring Beans</br>
+✅Bean Definition</br>
+✅Bean Life-Cycle</br>
+✅Dependency Injection</br>
+✅@Configuration</br>
+✅@Component</br>
+✅@ComponentScan</br>
+✅@Bean</br>
+✅@Scope</br>
 
 <div align="center">
 
