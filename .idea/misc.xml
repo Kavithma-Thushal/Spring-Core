@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/HelloSpring/pom.xml" />
         <option value="$PROJECT_DIR$/HelloSpringXML/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBean-LifeCycle/pom.xml" />
+        <option value="$PROJECT_DIR$/Dependency-Injection/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

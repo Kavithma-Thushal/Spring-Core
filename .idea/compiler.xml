@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HelloSpring" />
-        <module name="HelloSpringXML" />
         <module name="SpringBean-LifeCycle" />
+        <module name="Dependency-Injection" />
+        <module name="HelloSpringXML" />
       </profile>
     </annotationProcessing>
   </component>
