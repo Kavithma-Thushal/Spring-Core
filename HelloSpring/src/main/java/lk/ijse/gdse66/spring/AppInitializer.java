@@ -74,6 +74,7 @@ public class AppInitializer {
 
         System.out.println("");
 
+        // Scope - Singleton
         SpringBean4 bean = ctx.getBean(SpringBean4.class);
         System.out.println(bean);
 
@@ -85,6 +86,7 @@ public class AppInitializer {
 
         System.out.println("");
 
+        // Scope - Prototype
         JavaBean bean4 = ctx.getBean(JavaBean.class);
         System.out.println(bean4);
 
