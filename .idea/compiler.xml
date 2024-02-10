@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HelloSpring" />
         <module name="HelloSpringXML" />
+        <module name="SpringBean-LifeCycle" />
       </profile>
     </annotationProcessing>
   </component>
