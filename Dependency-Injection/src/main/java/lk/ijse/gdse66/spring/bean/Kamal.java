@@ -33,7 +33,7 @@ public class Kamal implements BeanNameAware, BeanFactoryAware, ApplicationContex
     // Interface Injection
     private GoodGirl gf;
 
-    //@Autowired
+    @Autowired
     @Override
     public void inject(GoodGirl gf) {
         this.gf = gf;
