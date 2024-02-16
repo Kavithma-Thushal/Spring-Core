@@ -1,5 +1,6 @@
 package lk.ijse.gdse66.spring;
 
+import lk.ijse.gdse66.spring.bean.Kamal;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -12,5 +13,13 @@ public class AppInitializer {
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
         ctx.register(AppConfig.class);
         ctx.refresh();
+
+        /*Kamal kamal = ctx.getBean(Kamal.class);
+        System.out.println(kamal);
+
+        System.out.println("--------------------------------------------------------------------");
+
+        Kamal kamal2 = ctx.getBean(Kamal.class);
+        System.out.println(kamal2);*/
     }
 }

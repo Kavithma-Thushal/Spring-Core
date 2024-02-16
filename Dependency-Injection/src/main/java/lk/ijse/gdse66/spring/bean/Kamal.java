@@ -1,11 +1,15 @@
 package lk.ijse.gdse66.spring.bean;
 
 import lk.ijse.gdse66.spring.util.Injector;
+import lk.ijse.gdse66.spring.util.WhiteFace;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
@@ -16,6 +20,7 @@ import javax.annotation.PostConstruct;
  * @since : 10:52 AM - 2/10/2024
  **/
 @Component
+//@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class Kamal implements BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean/*, Injector*/ {
 
     /*// Property/Field Injection
@@ -43,7 +48,7 @@ public class Kamal implements BeanNameAware, BeanFactoryAware, ApplicationContex
     private GoodGirl gf;
 
     @Autowired
-    public Kamal(GoodGirl gf) {
+    public Kamal(@Qualifier("Long Hair") @WhiteFace GoodGirl gf) {
         this.gf = gf;
         System.out.println("Kamal - Constructor()");
         System.out.println("Kamal - Have I got a girl friend? (Constructor) " + gf);

@@ -1,9 +1,12 @@
 package lk.ijse.gdse66.spring.bean;
 
+import lk.ijse.gdse66.spring.util.WhiteFace;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.*;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 /**
@@ -12,6 +15,9 @@ import org.springframework.stereotype.Component;
  * @since : 10:53 AM - 2/10/2024
  **/
 @Component
+@Primary
+@Qualifier("Long Hair")
+@WhiteFace
 public class Sachini implements BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean, GoodGirl {
 
     public Sachini() {
