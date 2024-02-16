@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 public class Sachini implements BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean, GoodGirl {
 
     public Sachini() {
-        System.out.println("Sachini - Instantiate");
+        System.out.println("Sachini - Constructor()");
     }
 
     @Override

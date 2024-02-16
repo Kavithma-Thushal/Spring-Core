@@ -45,9 +45,13 @@ public class Kamal implements BeanNameAware, BeanFactoryAware, ApplicationContex
     @Autowired
     public Kamal(GoodGirl gf) {
         this.gf = gf;
-        System.out.println("Kamal - Instantiate");
-        System.out.println("Kamal - Have I got a girl friend? (constructor) " + gf);
+        System.out.println("Kamal - Constructor()");
+        System.out.println("Kamal - Have I got a girl friend? (Constructor) " + gf);
     }
+
+    /*public Kamal() {
+        System.out.println("Kamal - No Args Constructor()");
+    }*/
 
     @Override
     public void setBeanName(String s) {
