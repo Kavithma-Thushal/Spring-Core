@@ -45,6 +45,6 @@ public class Sachini implements BeanNameAware, BeanFactoryAware, ApplicationCont
 
     @Override
     public void loveHim() {
-        System.out.println("Sachini - I loves Kamal");
+        System.out.println("Sachini - I love Kamal");
     }
 }
