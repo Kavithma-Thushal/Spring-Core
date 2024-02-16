@@ -16,11 +16,11 @@ import javax.annotation.PostConstruct;
  * @since : 10:52 AM - 2/10/2024
  **/
 @Component
-public class Kamal implements BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean, Injector {
+public class Kamal implements BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean/*, Injector*/ {
 
-    /*// Property/Field Injection
+    // Property/Field Injection
     @Autowired
-    private GoodGirl gf;*/
+    private GoodGirl gf;
 
     /*// Setter Method Injection
     private GoodGirl gf;
@@ -30,18 +30,26 @@ public class Kamal implements BeanNameAware, BeanFactoryAware, ApplicationContex
         this.gf = gf;
     }*/
 
-    // Interface Injection
+    /*// Interface Injection
     private GoodGirl gf;
 
     @Autowired
     @Override
     public void inject(GoodGirl gf) {
         this.gf = gf;
-    }
+    }*/
+
+    /*// Constructor Injection
+    private GoodGirl gf;
+
+    @Autowired
+    public Kamal(GoodGirl gf) {
+        this.gf = gf;
+    }*/
 
     public Kamal() {
         System.out.println("Kamal - Instantiate");
-        System.out.println("Kamal - Have I got a girl friend ? " + gf);
+        System.out.println("Kamal - Have I got a girl friend? (constructor) " + gf);
     }
 
     @Override
