@@ -14,28 +14,23 @@ import org.springframework.stereotype.Component;
 @Component
 public class Sachini implements BeanNameAware, BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean, GoodGirl {
 
-    @Override
-    public void loveHim() {
-        System.out.println("Sachini - I loves Kamal");
-    }
-
     public Sachini() {
         System.out.println("Sachini - Instantiate");
     }
 
     @Override
     public void setBeanName(String s) {
-        System.out.println("Sachini - Bean Name Aware : " + s);
+        System.out.println("Sachini - Bean Name Aware");
     }
 
     @Override
     public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
-        System.out.println("Sachini - Bean Factory Aware : " + beanFactory);
+        System.out.println("Sachini - Bean Factory Aware");
     }
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        System.out.println("Sachini - Bean ApplicationContext Aware : " + applicationContext);
+        System.out.println("Sachini - Bean ApplicationContext Aware");
     }
 
     @Override
@@ -46,5 +41,10 @@ public class Sachini implements BeanNameAware, BeanFactoryAware, ApplicationCont
     @Override
     public void destroy() throws Exception {
         System.out.println("Sachini - Bean Destroyed");
+    }
+
+    @Override
+    public void loveHim() {
+        System.out.println("Sachini - I loves Kamal");
     }
 }

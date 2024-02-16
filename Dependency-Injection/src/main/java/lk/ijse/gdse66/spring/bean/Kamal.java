@@ -33,7 +33,7 @@ public class Kamal implements BeanNameAware, BeanFactoryAware, ApplicationContex
     // Interface Injection
     private GoodGirl gf;
 
-    @Autowired
+    //@Autowired
     @Override
     public void inject(GoodGirl gf) {
         this.gf = gf;
@@ -46,27 +46,27 @@ public class Kamal implements BeanNameAware, BeanFactoryAware, ApplicationContex
 
     @Override
     public void setBeanName(String s) {
-        System.out.println("Kamal - Bean Name Aware : " + s);
+        System.out.println("Kamal - Bean Name Aware");
     }
 
     @Override
     public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
-        System.out.println("Kamal - Bean Factory Aware : " + beanFactory);
+        System.out.println("Kamal - Bean Factory Aware");
     }
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        System.out.println("Kamal - Bean ApplicationContext Aware : " + applicationContext);
-    }
-
-    @Override
-    public void afterPropertiesSet() throws Exception {
-        System.out.println("Kamal - Bean Initializing");
+        System.out.println("Kamal - Bean ApplicationContext Aware");
     }
 
     @PostConstruct
     public void initialize() {
         System.out.println("Kamal - Have I got a girl friend ? " + gf);
+    }
+
+    @Override
+    public void afterPropertiesSet() throws Exception {
+        System.out.println("Kamal - Bean Initializing");
     }
 
     @Override
