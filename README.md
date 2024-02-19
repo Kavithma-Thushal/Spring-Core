@@ -22,6 +22,7 @@ Happy coding.....! 😉
 * @Primary
 * @Qualifier
 * Custom Annotations
+* @Order
 * @PostConstruct
 * @PreDestroy
 
