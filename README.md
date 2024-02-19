@@ -19,6 +19,9 @@ Happy coding.....! 😉
 * @Bean
 * @Scope
 * @Autowired
+* @Primary
+* @Qualifier
+* Custom Annotations
 * @PostConstruct
 * @PreDestroy
 
