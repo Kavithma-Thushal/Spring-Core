@@ -11,6 +11,17 @@ Framework. Whether you're a seasoned developer or just getting started, there's 
 
 Happy coding.....! 😉
 
+### Annotations
+
+* @Configuration
+* @Component
+* @ComponentScan
+* @Bean
+* @Scope
+* @Autowired
+* @PostConstruct
+* @PreDestroy
+
 ## Content
 
 ✅Configuration through Annotations</br>
@@ -21,6 +32,7 @@ Happy coding.....! 😉
 ✅Bean Annotations</br>
 ✅Bean Life-Cycle</br>
 ✅Dependency Injection</br>
+
 <div align="center">
 
 #### This project is licensed under the [MIT License](LICENSE)
