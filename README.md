@@ -36,6 +36,9 @@ Happy coding.....! 😉
 ✅Bean Annotations</br>
 ✅Bean Life-Cycle</br>
 ✅Dependency Injection</br>
+✅FullMode VS LightMode</br>
+✅Various Configuration</br>
+✅Runtime Value Injection</br>
 
 <div align="center">
 
