@@ -11,6 +11,7 @@
         <module name="Dependency-Injection" />
         <module name="FullMode-VS-LightMode" />
         <module name="HelloSpringXML" />
+        <module name="Various-Configuration" />
       </profile>
     </annotationProcessing>
   </component>
