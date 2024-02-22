@@ -5,6 +5,7 @@ import lk.ijse.gdse66.spring.bean.SpringBean4;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Scope;
 
 /**
  * @author : Kavithma Thushal
@@ -24,6 +25,7 @@ public class AppConfig {
         return new SpringBean2(getSpringBean4());
     }
 
+    //@Scope("prototype")
     @Bean
     public SpringBean4 getSpringBean4() {
         System.out.println("getSpringBean4() - Method is invoked");
