@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HelloSpring" />
-        <module name="SpringBean-LifeCycle" />
-        <module name="Dependency-Injection" />
         <module name="FullMode-VS-LightMode" />
         <module name="HelloSpringXML" />
+        <module name="SpringBean-LifeCycle" />
+        <module name="Dependency-Injection" />
+        <module name="Runtime-Value-Injection" />
         <module name="Various-Configuration" />
       </profile>
     </annotationProcessing>
