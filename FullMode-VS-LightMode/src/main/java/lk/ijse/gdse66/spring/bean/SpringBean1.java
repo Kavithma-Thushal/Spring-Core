@@ -21,7 +21,7 @@ public class SpringBean1 {
         return new SpringBean3();
     }
 
-    @Bean
+    /*@Bean
     public SpringBean2 getSpringBean2() {
         System.out.println("getSpringBean2() - Method is invoked");
         return new SpringBean2(getSpringBean4());   // Me bean eka spring manage krnne na
@@ -31,5 +31,5 @@ public class SpringBean1 {
     public SpringBean4 getSpringBean4() {
         System.out.println("getSpringBean4() - Method is invoked");
         return new SpringBean4();
-    }
+    }*/
 }
