@@ -17,13 +17,13 @@ public class AppConfig {
 
     /*@Bean
     public SpringBean2 getSpringBean2() {
-        System.out.println("getSpringBean2() method is invoked");
+        System.out.println("getSpringBean2() - Method is invoked");
         return new SpringBean2(getSpringBean4());
     }
 
     @Bean
     public SpringBean4 getSpringBean4() {
-        System.out.println("getSpringBean4() method is invoked");
+        System.out.println("getSpringBean4() - Method is invoked");
         return new SpringBean4();
     }*/
 }
