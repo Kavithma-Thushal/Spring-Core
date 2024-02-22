@@ -8,9 +8,9 @@
         <option value="$PROJECT_DIR$/HelloSpringXML/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBean-LifeCycle/pom.xml" />
         <option value="$PROJECT_DIR$/Dependency-Injection/pom.xml" />
+        <option value="$PROJECT_DIR$/FullMode-VS-LightMode/pom.xml" />
       </list>
     </option>
-    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

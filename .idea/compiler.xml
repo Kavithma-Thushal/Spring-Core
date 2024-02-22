@@ -9,6 +9,7 @@
         <module name="HelloSpring" />
         <module name="SpringBean-LifeCycle" />
         <module name="Dependency-Injection" />
+        <module name="FullMode-VS-LightMode" />
         <module name="HelloSpringXML" />
       </profile>
     </annotationProcessing>
