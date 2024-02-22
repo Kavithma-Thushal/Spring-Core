@@ -24,6 +24,9 @@ public class SpringBean1 {
     /*@Bean
     public SpringBean2 getSpringBean2() {
         System.out.println("getSpringBean2() - Method is invoked");
+        getSpringBean4();
+        getSpringBean4();
+        getSpringBean4();
         return new SpringBean2(getSpringBean4());   // Me bean eka spring manage krnne na
     }
 

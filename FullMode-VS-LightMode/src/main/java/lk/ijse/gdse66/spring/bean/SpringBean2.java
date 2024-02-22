@@ -1,7 +1,5 @@
 package lk.ijse.gdse66.spring.bean;
 
-import org.springframework.context.annotation.Bean;
-
 /**
  * @author : Kavithma Thushal
  * @project : FullModeVSLightMode
@@ -12,9 +10,4 @@ public class SpringBean2 {
     public SpringBean2(SpringBean4 springBean4) {
         System.out.println("SpringBean2 - Constructor : " + springBean4);
     }
-
-    /*@Bean
-    public SpringBean3 getSpringBean3() {
-        return new SpringBean3();
-    }*/
 }
