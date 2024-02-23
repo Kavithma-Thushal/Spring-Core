@@ -22,9 +22,9 @@ public class AppInitializer {
         Map<String, String> map = System.getenv();
         for (String keys : map.keySet()) {
             System.out.println(keys + " = " + map.get(keys));
-        }
+        }*/
 
-        System.out.println("========================================================================");
+        /*System.out.println("========================================================================");
         *//*Let's access JRE environment variable in our java program*//*
         Properties envVariables = System.getProperties();
         envVariables.put("City", "Galle");

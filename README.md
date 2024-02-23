@@ -42,6 +42,8 @@ Happy coding.....! 😉
 * @PreDestroy
 * @ImportResource
 * @Import
+* @Value
+* @PropertySource
 
 <div align="center">
 
