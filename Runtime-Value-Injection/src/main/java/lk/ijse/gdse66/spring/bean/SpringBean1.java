@@ -1,6 +1,7 @@
 package lk.ijse.gdse66.spring.bean;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import java.util.Arrays;
