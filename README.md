@@ -40,6 +40,8 @@ Happy coding.....! 😉
 * @Order
 * @PostConstruct
 * @PreDestroy
+* @ImportResource
+* @Import
 
 <div align="center">
 
