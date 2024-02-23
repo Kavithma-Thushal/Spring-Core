@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/FullMode-VS-LightMode/pom.xml" />
         <option value="$PROJECT_DIR$/Various-Configuration/pom.xml" />
         <option value="$PROJECT_DIR$/Runtime-Value-Injection/pom.xml" />
+        <option value="$PROJECT_DIR$/Constructor-Resolution-Algorithm/pom.xml" />
       </list>
     </option>
   </component>

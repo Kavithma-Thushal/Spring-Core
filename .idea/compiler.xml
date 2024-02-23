@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HelloSpring" />
+        <module name="Constructor-Resolution-Algorithm" />
         <module name="FullMode-VS-LightMode" />
         <module name="HelloSpringXML" />
         <module name="SpringBean-LifeCycle" />
