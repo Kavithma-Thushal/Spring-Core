@@ -11,21 +11,6 @@ Framework. Whether you're a seasoned developer or just getting started, there's 
 
 Happy coding.....! 😉
 
-### Annotations
-
-* @Configuration
-* @Component
-* @ComponentScan
-* @Bean
-* @Scope
-* @Autowired
-* @Primary
-* @Qualifier
-* Custom Annotations
-* @Order
-* @PostConstruct
-* @PreDestroy
-
 ## Content
 
 ✅Configuration through Annotations</br>
@@ -40,6 +25,21 @@ Happy coding.....! 😉
 ✅Various Configuration</br>
 ✅Runtime Value Injection</br>
 ✅Constructor Resolution Algorithm</br>
+
+### Annotations
+
+* @Configuration
+* @Component
+* @ComponentScan
+* @Bean
+* @Scope
+* @Autowired
+* @Primary
+* @Qualifier
+* Custom Annotations
+* @Order
+* @PostConstruct
+* @PreDestroy
 
 <div align="center">
 
