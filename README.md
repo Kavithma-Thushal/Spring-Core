@@ -17,8 +17,6 @@ Happy coding.....! 😉
 ✅Configuration through XML</br>
 ✅Spring Container</br>
 ✅Spring Beans</br>
-✅Bean Definition</br>
-✅Bean Annotations</br>
 ✅Bean Life-Cycle</br>
 ✅Dependency Injection</br>
 ✅FullMode VS LightMode</br>
