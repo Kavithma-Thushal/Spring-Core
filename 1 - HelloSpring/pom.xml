@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>lk.ijse.gdse66</groupId>
-    <artifactId>HelloSpringXML</artifactId>
+    <artifactId>1 - HelloSpring</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
@@ -16,7 +16,7 @@
     </properties>
 
     <dependencies>
-        <!--Add Spring Core-->
+        <!--Add Spring Core Container-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>

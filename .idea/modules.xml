@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HelloSpring/1 - HelloSpring.iml" filepath="$PROJECT_DIR$/HelloSpring/1 - HelloSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloSpringXML/2 - HelloSpringXML.iml" filepath="$PROJECT_DIR$/HelloSpringXML/2 - HelloSpringXML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBean-LifeCycle/3 - SpringBean-LifeCycle.iml" filepath="$PROJECT_DIR$/SpringBean-LifeCycle/3 - SpringBean-LifeCycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dependency-Injection/4 - Dependency-Injection.iml" filepath="$PROJECT_DIR$/Dependency-Injection/4 - Dependency-Injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FullMode-VS-LightMode/5 - FullMode-VS-LightMode.iml" filepath="$PROJECT_DIR$/FullMode-VS-LightMode/5 - FullMode-VS-LightMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Various-Configuration/6 - Various-Configuration.iml" filepath="$PROJECT_DIR$/Various-Configuration/6 - Various-Configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Runtime-Value-Injection/7 - Runtime-Value-Injection.iml" filepath="$PROJECT_DIR$/Runtime-Value-Injection/7 - Runtime-Value-Injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Constructor-Resolution-Algorithm/8 - Constructor-Resolution-Algorithm.iml" filepath="$PROJECT_DIR$/Constructor-Resolution-Algorithm/8 - Constructor-Resolution-Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Framework.iml" filepath="$PROJECT_DIR$/.idea/Spring-Framework.iml" />
     </modules>
   </component>
