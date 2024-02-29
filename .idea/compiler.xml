@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="5 - FullMode-VS-LightMode" />
-        <module name="4 - Dependency-Injection" />
-        <module name="8 - Constructor-Resolution-Algorithm" />
-        <module name="7 - Runtime-Value-Injection" />
         <module name="1 - HelloSpring" />
-        <module name="6 - Various-Configuration" />
-        <module name="2 - HelloSpringXML" />
-        <module name="3 - SpringBean-LifeCycle" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="2 - HelloSpringXML" target="1.8" />
+      <module name="3 - SpringBean-LifeCycle" target="1.8" />
+      <module name="4 - Dependency-Injection" target="1.8" />
+      <module name="5 - FullMode-VS-LightMode" target="1.8" />
+      <module name="6 - Various-Configuration" target="1.8" />
+      <module name="7 - Runtime-Value-Injection" target="1.8" />
+      <module name="8 - Constructor-Resolution-Algorithm" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
