@@ -38,12 +38,12 @@ Happy coding.....! 😉
 * @Qualifier
 * Custom Annotations
 * @Order
-* @PostConstruct
-* @PreDestroy
 * @ImportResource
 * @Import
 * @Value
 * @PropertySource
+* @PostConstruct
+* @PreDestroy
 
 <div align="center">
 
