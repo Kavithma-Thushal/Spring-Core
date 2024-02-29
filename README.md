@@ -31,6 +31,8 @@ Happy coding.....! 😉
 * @ComponentScan
 * @Bean
 * @Scope
+* @PostConstruct
+* @PreDestroy
 * @Autowired
 * @Primary
 * @Qualifier
@@ -40,8 +42,6 @@ Happy coding.....! 😉
 * @Import
 * @Value
 * @PropertySource
-* @PostConstruct
-* @PreDestroy
 
 <div align="center">
 
