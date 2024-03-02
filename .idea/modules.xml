@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/2 - HelloSpringXML/2 - HelloSpringXML.iml" filepath="$PROJECT_DIR$/2 - HelloSpringXML/2 - HelloSpringXML.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Framework.iml" filepath="$PROJECT_DIR$/.idea/Spring-Framework.iml" />
     </modules>
   </component>
