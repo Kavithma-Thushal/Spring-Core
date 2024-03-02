@@ -7,7 +7,7 @@ platform to streamline your development process.<br/>
 ### Getting Started
 
 Explore the various modules and resources available in this repository to kickstart your development journey with Spring
-Framework. Whether you're a seasoned developer or just getting started, there's something here for everyone.
+Core. Whether you're a seasoned developer or just getting started, there's something here for everyone.
 
 Happy coding.....! 😉
 
