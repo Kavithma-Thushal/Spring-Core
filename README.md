@@ -1,8 +1,8 @@
-# Spring Framework
+# Spring Core
 
-This repository is a comprehensive collection of resources and modules for leveraging the power of the Spring Framework
-across various application domains. Whether you're developing desktop applications, web applications, or mobile
-applications, Spring offers a versatile and robust platform to streamline your development process.<br/><br/>
+This repository is a comprehensive collection of resources and modules for leveraging the power of the Spring Core
+across various application domains. Whether you're developing desktop applications Spring Core is a versatile and robust
+platform to streamline your development process.<br/>
 
 ### Getting Started
 
@@ -42,6 +42,7 @@ Happy coding.....! 😉
 * @Import
 * @Value
 * @PropertySource
+* @Nullable
 
 <div align="center">
 
